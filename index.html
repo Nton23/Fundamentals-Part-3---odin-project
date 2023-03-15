@@ -16,6 +16,13 @@
             return num1 * num2;
         }
         console.log(mulFunction(2,3));
+        function capitalizeFunction(stringInput) {
+            newString = stringInput.toLowerCase();
+            capFirstLetter = newString[0].toUpperCase();
+            updatedString = newString.replace(newString[0], capFirstLetter)
+            return updatedString;
+        }
+        console.log(capitalizeFunction("tOan"));
     </script>
 </body>
 </html>
